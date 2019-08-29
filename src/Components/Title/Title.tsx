@@ -1,6 +1,6 @@
 import { Span, H1, A } from "utils/Components";
 
-interface Props extends BlockProps, Pick<SiteInfo, "title"> {}
+interface Props extends EditProps, Pick<SiteInfo, "title"> {}
 
 export const Title: React.ComponentType<Props> = props => {
 	const { className, attributes, title } = props;

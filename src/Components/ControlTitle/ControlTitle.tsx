@@ -4,7 +4,7 @@ import { addPrefix } from "utils/tools";
 const { __ } = wp.i18n;
 const { RadioControl } = wp.components;
 
-export const ControlTitle: React.ComponentType<BlockProps> = props => {
+export const ControlTitle: React.ComponentType<EditProps> = props => {
 	const { attributes, setAttributes } = props;
 	const { title_html } = attributes;
 

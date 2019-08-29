@@ -1,6 +1,6 @@
 import { Div } from "utils/Components";
 
-interface ContainerProps extends BlockProps {
+interface ContainerProps extends EditProps {
 	children: React.ReactNode;
 }
 

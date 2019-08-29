@@ -4,7 +4,7 @@ import { ControlDescription } from "../ControlDescription/ControlDescription";
 
 const { InspectorControls } = wp.blockEditor;
 
-export const Controls: React.ComponentType<BlockProps> = props => {
+export const Controls: React.ComponentType<EditProps> = props => {
 	return (
 		<InspectorControls>
 			<Div id="controls">

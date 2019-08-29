@@ -31,7 +31,7 @@ interface Attributes {
 	description_html: "h2" | "h3" | "h4" | "span";
 }
 
-interface BlockProps {
+interface EditProps {
 	className: string;
 	attributes: Attributes;
 	setAttributes: Function;

@@ -15,7 +15,7 @@ wp.blocks.registerBlockType<AttributesDefinition>(block_name, {
 	category: block_category,
 	description: block_description,
 	supports: { align: true },
-	edit: (props: BlockProps) => <Edit {...props} />,
+	edit: (props: EditProps) => <Edit {...props} />,
 	save: () => null,
 	attributes: {
 		title_html: {

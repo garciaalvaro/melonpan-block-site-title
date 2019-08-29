@@ -5,7 +5,7 @@ import { Description } from "../Description/Description";
 
 const { useState, useEffect } = wp.element;
 
-export const Edit: React.ComponentType<BlockProps> = props => {
+export const Edit: React.ComponentType<EditProps> = props => {
 	const { attributes } = props;
 	const { description_enabled } = attributes;
 	const [title, setTitle] = useState("");

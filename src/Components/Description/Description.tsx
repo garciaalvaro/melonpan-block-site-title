@@ -1,6 +1,6 @@
 import { Span, H2, H3, H4 } from "utils/Components";
 
-interface Props extends BlockProps, Pick<SiteInfo, "description"> {}
+interface Props extends EditProps, Pick<SiteInfo, "description"> {}
 
 export const Description: React.ComponentType<Props> = props => {
 	const { attributes, description } = props;
