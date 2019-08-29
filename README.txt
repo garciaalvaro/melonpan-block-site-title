@@ -1,4 +1,4 @@
-=== Melonpan Block Site Title ===
+=== Melonpan Block - Site Title ===
 Contributors: melonpan
 Tags: site-info, title, block, block-editor, description, gutenberg
 Requires at least: 5.2

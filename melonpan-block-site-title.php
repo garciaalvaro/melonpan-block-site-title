@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Melonpan Block Site Title
+ * Plugin Name: Melonpan Block - Site Title
  * Plugin URI: #
  * Description: Block that displays the Site Title and Description
  * Author: melonpan
