@@ -20,7 +20,7 @@ The block comes with the following settings:
 * **Description enabled**: Display the site description
 * **Description HTML tag**: Choose between _h2_, _h3_, _h4_, _span_
 
-[GitHub repository](https://wordpress.org/plugins/melonpan-block-site-title/)
+[GitHub repository](https://github.com/garciaalvaro/melonpan-block-site-title)
 
 
 == Usage ==
