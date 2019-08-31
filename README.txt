@@ -13,12 +13,14 @@ Block that displays the Site Title and Description.
 
 == Description ==
 
-Block that displays the Site Title and Description. Simple. The block doesn't add any styles or scripts in the front-end.
+Block that displays the Site Title and Description. No stylesheets or scripts are added in the front-end.
 The block comes with the following settings:
 
-* Title HTML tag: Choose between h1, h1 > a, a, a > h1, span
-* Description: Display the site description
-* Description HTML tag: Choose between h2, h3, h4, span
+* **Title HTML tag**: Choose between _h1_, _h1 > a_, _a_, _a > h1_, _span_
+* **Description enabled**: Display the site description
+* **Description HTML tag**: Choose between _h2_, _h3_, _h4_, _span_
+
+[GitHub repository](https://wordpress.org/plugins/melonpan-block-site-title/)
 
 
 == Usage ==

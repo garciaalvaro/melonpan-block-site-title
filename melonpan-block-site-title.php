@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Melonpan Block - Site Title
- * Plugin URI: #
+ * Plugin URI: https://wordpress.org/plugins/melonpan-block-site-title/
  * Description: Block that displays the Site Title and Description
  * Author: melonpan
  * Version: 1.0.0
