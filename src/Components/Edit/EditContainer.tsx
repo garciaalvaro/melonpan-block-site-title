@@ -1,10 +1,10 @@
+import { Fragment } from "@wordpress/element";
+
 import { Div } from "utils/Components";
 
 interface ContainerProps extends EditProps {
 	children: React.ReactNode;
 }
-
-const { Fragment } = wp.element;
 
 export const EditContainer: React.ComponentType<ContainerProps> = props => {
 	const { children, className, attributes } = props;

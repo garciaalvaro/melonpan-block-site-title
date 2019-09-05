@@ -1,8 +1,8 @@
+import { __ } from "@wordpress/i18n";
+import { RadioControl } from "@wordpress/components";
+
 import { Div } from "utils/Components";
 import { addPrefix } from "utils/tools";
-
-const { __ } = wp.i18n;
-const { RadioControl } = wp.components;
 
 export const ControlTitle: React.ComponentType<EditProps> = props => {
 	const { attributes, setAttributes } = props;

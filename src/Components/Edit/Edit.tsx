@@ -1,9 +1,10 @@
+import apiFetch from "@wordpress/api-fetch";
+import { useState, useEffect } from "@wordpress/element";
+
 import { EditContainer } from "./EditContainer";
 import { Controls } from "../Controls/Controls";
 import { Title } from "../Title/Title";
 import { Description } from "../Description/Description";
-
-const { useState, useEffect } = wp.element;
 
 export const Edit: React.ComponentType<EditProps> = props => {
 	const { attributes } = props;
@@ -13,7 +14,7 @@ export const Edit: React.ComponentType<EditProps> = props => {
 
 	useEffect(() => {
 		const fetchSiteInfo = async () => {
-			const site_info = await wp.apiFetch<SiteInfo>({
+			const site_info = await apiFetch<SiteInfo>({
 				path: "/melonpan-block-site-title/v1/site-info"
 			});
 
