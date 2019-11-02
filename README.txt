@@ -13,14 +13,18 @@ Block that displays the Site Title and Description.
 
 == Description ==
 
+[Demo](https://gutenberg-showcase.melonpan.io/melonpan-block-site-title) - [Documentation](https://melonpan.io/gutenberg-blocks/melonpan-block-site-title) - [GitHub](https://github.com/garciaalvaro/melonpan-block-site-title)
+
 Block that displays the Site Title and Description. No stylesheets or scripts are added in the front-end.
+
+
+== Features ==
+
 The block comes with the following settings:
 
 * **Title HTML tag**: Choose between _h1_, _h1 > a_, _a_, _a > h1_, _span_
 * **Description enabled**: Display the site description
 * **Description HTML tag**: Choose between _h2_, _h3_, _h4_, _span_
-
-[GitHub repository](https://github.com/garciaalvaro/melonpan-block-site-title)
 
 
 == Usage ==
@@ -38,6 +42,11 @@ Installation from the WordPress admin.
 3. In the results list *Melonpan Block - Site Title* plugin should appear, click **Install Now** button.
 4. Once it finished installing, click the *Activate* button.
 5. That's it, now you can go to any post where Gutenberg is enabled and start using the block.
+
+
+== Screenshots ==
+
+1. Block in the editor
 
 
 == Changelog ==

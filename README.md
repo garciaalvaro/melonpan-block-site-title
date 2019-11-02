@@ -2,11 +2,15 @@
 
 # Melonpan Block - Site Title
 
+[Demo](https://gutenberg-showcase.melonpan.io/melonpan-block-site-title) - [Documentation](https://melonpan.io/gutenberg-blocks/melonpan-block-site-title) - [WordPress](https://wordpress.org/plugins/melonpan-block-site-title)
+
+<br />
+
 Block that displays the Site Title and Description. No stylesheets or scripts are added in the front-end.
 
 <br />
 
-## Block Settings
+## Features
 
 The block comes with the following settings:
 
@@ -16,6 +20,6 @@ The block comes with the following settings:
 
 <br />
 
----
+## Screenshots
 
-This plugin can be downloaded from the [WordPress repository](https://wordpress.org/plugins/melonpan-block-site-title/).
+<img src="assets-repo/screenshot-1.jpg" width="700px" alt="Block in the editor" />
