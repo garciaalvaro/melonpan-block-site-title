@@ -5,8 +5,6 @@
 +prefix-classes('mbst-')
 
 	#mbst-controls
-		margin -16px
-		padding 16px 16px 85px
 		position relative
 
 		.no-is_active
@@ -19,12 +17,12 @@
 			background-color rgba(0,0,0,0.1)
 			width 100%
 			height 1px
-			top 16px
+			top 0
 			left 0
 
 		.control-container
 			position relative
-			padding 25px 0
+			padding 25px 16px
 			width 100%
 			margin 0
 			color rgba(0,0,0,0.87)
@@ -36,6 +34,9 @@
 				margin-top 30px
 
 #mbst-controls
+
+	.components-panel__body &
+		margin 16px -16px 0
 
 	.components-base-control__label
 		font-weight 600
