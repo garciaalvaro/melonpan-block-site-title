@@ -1,5 +1,6 @@
 import { InspectorControls } from "@wordpress/block-editor";
 
+import "./Controls.styl";
 import { Div } from "utils/Components";
 import { ControlTitle } from "../ControlTitle/ControlTitle";
 import { ControlDescription } from "../ControlDescription/ControlDescription";

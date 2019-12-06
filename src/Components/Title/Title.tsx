@@ -1,3 +1,4 @@
+import "./Title.styl";
 import { Span, H1, A } from "utils/Components";
 
 interface Props extends EditProps, Pick<SiteInfo, "title"> {}
