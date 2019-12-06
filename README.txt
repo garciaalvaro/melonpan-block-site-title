@@ -51,5 +51,8 @@ Installation from the WordPress admin.
 
 == Changelog ==
 
+= 1.1.0 =
+* Minor styling fixes.
+
 = 1.0.0 =
 * Initial release.
