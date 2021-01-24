@@ -1,8 +1,8 @@
 === Melonpan Block - Site Title ===
 Contributors: melonpan
 Tags: site-info, title, block, block-editor, description, gutenberg
-Requires at least: 5.2
-Tested up to: 5.4
+Requires at least: 5.6
+Tested up to: 5.6
 Stable tag: 1.2.0
 Requires PHP: 7.1
 License: GPLv3
@@ -50,6 +50,10 @@ Installation from the WordPress admin.
 
 
 == Changelog ==
+
+= 2.0.0 =
+* Refactored code base
+* Updated dependencies
 
 = 1.2.0 =
 * Updated dependencies
