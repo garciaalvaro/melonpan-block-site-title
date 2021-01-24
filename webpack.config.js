@@ -33,11 +33,11 @@ module.exports = (env, { mode }) => {
 		externals: {
 			react: "React",
 			"react-dom": "ReactDOM",
+			"@wordpress/api-fetch": "wp.apiFetch",
 			"@wordpress/block-editor": "wp.blockEditor",
 			"@wordpress/blocks": "wp.blocks",
 			"@wordpress/components": "wp.components",
 			"@wordpress/data": "wp.data",
-			"@wordpress/editor": "wp.editor",
 			"@wordpress/element": "wp.element",
 			"@wordpress/i18n": "wp.i18n",
 		},
