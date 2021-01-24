@@ -1,44 +1,53 @@
-import "./Title.styl";
-import { Span, H1, A } from "utils/Components";
+import React, { FunctionComponent } from "react";
 
-interface Props extends EditProps, Pick<SiteInfo, "title"> {}
+import styles from "./Title.styl";
+import { className } from "@/utils";
 
-export const Title: React.ComponentType<Props> = props => {
-	const { className, attributes, title } = props;
+interface Props extends EditProps {
+	title: string;
+	html_attributes: Record<string, string>;
+}
+
+export const Title: FunctionComponent<Props> = props => {
+	const { attributes, title } = props;
 	const { description_enabled, title_html } = attributes;
-	const classes = [description_enabled ? className : null, "title"];
+
+	const html_attributes = description_enabled
+		? { className: styles.title }
+		: {
+				...props.html_attributes,
+				className: className([
+					styles.title,
+					props.html_attributes.className,
+				]),
+		  };
 
 	switch (title_html) {
 		case "a":
 			return (
-				<A className={classes} href="#">
+				<a href="#" {...html_attributes}>
 					{title}
-				</A>
+				</a>
 			);
-			break;
 
 		case "a_h1":
 			return (
-				<A className={classes} href="#">
-					<H1>{title}</H1>
-				</A>
+				<a href="#" {...html_attributes}>
+					<h1>{title}</h1>
+				</a>
 			);
-			break;
 
 		case "h1":
-			return <H1 className={classes}>{title}</H1>;
-			break;
+			return <h1 {...html_attributes}>{title}</h1>;
 
 		case "h1_a":
 			return (
-				<H1 className={classes}>
-					<A href="#">{title}</A>
-				</H1>
+				<h1 {...html_attributes}>
+					<a href="#">{title}</a>
+				</h1>
 			);
-			break;
 
 		default:
-			return <Span className={classes}>{title}</Span>;
-			break;
+			return <span {...html_attributes}>{title}</span>;
 	}
 };

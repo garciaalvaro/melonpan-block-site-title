@@ -1,17 +1,17 @@
+import React, { FunctionComponent } from "react";
 import { InspectorControls } from "@wordpress/block-editor";
 
-import "./Controls.styl";
-import { Div } from "utils/Components";
-import { ControlTitle } from "../ControlTitle/ControlTitle";
-import { ControlDescription } from "../ControlDescription/ControlDescription";
+import { ControlTitle } from "../ControlTitle";
+import { ControlDescription } from "../ControlDescription";
 
-export const Controls: React.ComponentType<EditProps> = props => {
+export const Controls: FunctionComponent<EditProps> = props => {
 	return (
 		<InspectorControls>
-			<Div id="controls">
+			<div>
 				<ControlTitle {...props} />
+
 				<ControlDescription {...props} />
-			</Div>
+			</div>
 		</InspectorControls>
 	);
 };

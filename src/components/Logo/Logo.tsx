@@ -1,7 +1,7 @@
-export type Icons = Record<"logo", JSX.Element>;
+import React, { FunctionComponent } from "react";
 
-export const icons: Icons = {
-	logo: (
+export const Logo: FunctionComponent = () => {
+	return (
 		<svg width="18" height="18" viewBox="0 0 100 100">
 			<rect width="40" height="15" x="5" y="10" />
 			<rect width="40" height="15" x="5" y="43" />
@@ -11,5 +11,5 @@ export const icons: Icons = {
 			<rect width="12" height="80" x="69" y="10" />
 			<rect width="40" height="15" x="55" y="10" />
 		</svg>
-	)
+	);
 };

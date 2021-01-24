@@ -1,26 +1,23 @@
-import { Span, H2, H3, H4 } from "utils/Components";
+import React, { FunctionComponent } from "react";
 
-interface Props extends EditProps, Pick<SiteInfo, "description"> {}
+interface Props extends Pick<EditProps["attributes"], "description_html"> {
+	description: string;
+}
 
-export const Description: React.ComponentType<Props> = props => {
-	const { attributes, description } = props;
-	const { description_html } = attributes;
+export const Description: FunctionComponent<Props> = props => {
+	const { description, description_html } = props;
 
 	switch (description_html) {
 		case "h2":
-			return <H2>{description}</H2>;
-			break;
+			return <h2>{description}</h2>;
 
 		case "h3":
-			return <H3>{description}</H3>;
-			break;
+			return <h3>{description}</h3>;
 
 		case "h4":
-			return <H4>{description}</H4>;
-			break;
+			return <h4>{description}</h4>;
 
 		default:
-			return <Span>{description}</Span>;
-			break;
+			return <span>{description}</span>;
 	}
 };
